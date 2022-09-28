@@ -1,0 +1,14 @@
+.exercise {
+    display: flex;
+    background-color: var(--light);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+/* .break {
+    display: flex;
+    background-color: var(--light);
+    padding: 1rem;
+    border-radius: 10px;
+} */

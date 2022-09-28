@@ -45,3 +45,7 @@
     --ternary: #898989;
     --light: #eeeeee;
 }
+
+button {
+    margin-top: 2rem;
+}
