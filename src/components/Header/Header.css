@@ -1,0 +1,14 @@
+nav {
+    background-color: var(--pure);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+    margin-left: 100px;
+}
+
+.highlight {
+    color: var(--primary);
+}

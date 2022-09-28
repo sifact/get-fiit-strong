@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Plank",
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184819/shutterstock_420977956-768x512.jpg",
+        "description": "It’s the best exercise for rock hard abs. A simple exercise for beginners for stronger abs and to strengthen your shoulder, arms and back. It can be done in many variations.",
+        "age": "15-20",
+        "time": "15m"
+    },
+    {
+        "id": 2,
+        "name": "Cross Crunches",
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184817/shutterstock_578116237-768x512.jpg",
+        "description": "It’s more effective and easy exercise for abs and the oblique muscles. It strengthens the core and strengthens your abdominal muscles.",
+        "age": "15-20",
+        "time": "15m"
+    },
+    {
+        "id": 3,
+        "name": "Side Plank",
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184816/shutterstock_788852683-768x511.jpg",
+        "description": "It strengthens oblique and helps your build stronger abs.",
+        "age": "15-20",
+        "time": "15m"
+    },
+    {
+        "id": 4,
+        "name": "Squats",
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184815/shutterstock_390236356-768x511.jpg",
+        "description": "It helps you get in better shape when included in daily workout plan. Strengthens lower body muscles for men. It can be done in many variations.",
+        "age": "15-20",
+        "time": "15m"
+    },
+    {
+        "id": 5,
+        "name": "Push-ups",
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184812/shutterstock_609502487-768x512.jpg",
+        "description": "Basically, push-ups are effective exercise for strengthening chest and arm muscles.",
+        "age": "15-20",
+        "time": "15m"
+    },
+    {
+        "id": 6,
+        "name": "Russian twist",
+        "img": "https://de927adv5b23k.cloudfront.net/wp-content/uploads/2018/01/03184811/russian-twist-1-768x425.jpg",
+        "description": "Basically, push-ups are effective exercise for strengthening chest and arm muscles.",
+        "age": "15-20",
+        "time": "15m"
+    }
+]

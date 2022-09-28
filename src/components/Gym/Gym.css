@@ -1,0 +1,17 @@
+.exercise-wrapper {
+    margin-top: 70px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exercises-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.exercises-container img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 9px;
+}
