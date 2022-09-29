@@ -46,5 +46,10 @@
 @media (max-width: 576px) {
     .exercise-wrapper {
         margin-left: 0;
+        margin-right: 0;
+    }
+
+    .exercises-container {
+        margin-right: 0;
     }
 }

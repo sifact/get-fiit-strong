@@ -19,7 +19,9 @@ section.questions {
     transition: all 0.3s ease;
     padding: 2rem;
 }
-
+.question:hover {
+    transform: scale(1.01);
+}
 @media (max-width: 1100px) {
     .questions-wrapper {
         grid-template-columns: 1fr;

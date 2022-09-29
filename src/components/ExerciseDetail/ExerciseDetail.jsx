@@ -18,6 +18,7 @@ const ExerciseDetail = ({ singleExe, breakTime }) => {
 
     return (
         <div>
+            <h2>Exercise Details</h2>
             <div className="exercise">
                 <h4 style={{ margin: "0px" }}>Exercise time</h4>
                 <p style={{ margin: "0px" }}>

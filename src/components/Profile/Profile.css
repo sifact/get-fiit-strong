@@ -44,7 +44,8 @@
 
 @media (max-width: 576px) {
     .profile-wrapper {
-        width: 250px;
+        width: 235px;
+        height: auto;
     }
     .exercise-wrapper {
         margin-left: 0;

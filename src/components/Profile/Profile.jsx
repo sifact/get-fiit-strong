@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Profile.css";
-import image from "./image/hero.jpg";
+import image from "./image/hero1.png";
 import Break from "../Break/Break";
 import ExerciseDetail from "../ExerciseDetail/ExerciseDetail";
 import { addToDb, getData } from "../../utilities/storage";
