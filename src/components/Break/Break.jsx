@@ -2,7 +2,7 @@ import React from "react";
 import "./Break.css";
 
 const Break = ({ addBreak }) => {
-    const breakTimes = ["10s", "20s", "30s", "40s", "50s"];
+    const breakTimes = ["10m", "20m", "30m", "40m", "50m"];
     return (
         <div className="break-container">
             <h2>Add A Break</h2>

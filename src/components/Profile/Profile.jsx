@@ -5,8 +5,18 @@ import Break from "../Break/Break";
 import ExerciseDetail from "../ExerciseDetail/ExerciseDetail";
 import { addToDb, getData } from "../../utilities/storage";
 
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const Profile = ({ singleExe }) => {
     const [breakTime, setBreakTime] = useState(0);
+
+    const notify = () => {
+        toast.success("Successfully done today's task :)", {
+            position: toast.POSITION.BOTTOM_CENTER,
+            backgroundColor: "green",
+        });
+    };
 
     useEffect(() => {
         const storedData = getData();
@@ -16,7 +26,7 @@ const Profile = ({ singleExe }) => {
     }, []);
     const addBreak = (e) => {
         const breakTime = e.target.outerText;
-        console.log(breakTime);
+
         setBreakTime(breakTime);
         addToDb(breakTime);
     };
@@ -59,7 +69,10 @@ const Profile = ({ singleExe }) => {
             </div>
             <Break addBreak={addBreak} />
             <ExerciseDetail singleExe={singleExe} breakTime={breakTime} />
-            <button className="btn btn-primary">Activity Completed</button>
+            <button className="btn btn-primary" onClick={notify}>
+                Activity Completed
+            </button>
+            <ToastContainer />
         </div>
     );
 };

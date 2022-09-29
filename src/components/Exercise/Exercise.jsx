@@ -20,7 +20,6 @@ const Exercise = ({ exercise, updateTime }) => {
     }
     return (
         <div className={toggle ? `card ${toggle}` : "card"}>
-            {/* <div className="card"> */}
             <img src={img} alt="" />
             <div className="card-content">
                 <h1 style={{ marginTop: "0px", marginBottom: "0px" }}>
