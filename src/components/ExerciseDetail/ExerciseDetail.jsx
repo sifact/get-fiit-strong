@@ -1,7 +1,7 @@
 import React from "react";
 import "./ExersiceDetail.css";
 
-const ExerciseDetail = ({ singleExe, x }) => {
+const ExerciseDetail = ({ singleExe, breakTime }) => {
     let total = 0;
     singleExe.forEach((time) => {
         const length = time.length;
@@ -18,7 +18,10 @@ const ExerciseDetail = ({ singleExe, x }) => {
             </div>
             <div className="exercise">
                 <h4 style={{ margin: "0px" }}>Break time</h4>
-                <p style={{ margin: "0px" }}> {x ? x : "0 second"}</p>
+                <p style={{ margin: "0px" }}>
+                    {" "}
+                    {breakTime ? breakTime : "0 second"}
+                </p>
             </div>
         </div>
     );

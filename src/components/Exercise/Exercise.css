@@ -9,12 +9,12 @@
     transition: all 0.3s ease;
 }
 
-.card-transform {
+/* .card-transform {
     transform: translateY(10px);
 }
 .card-transform-lg {
     transform: translateY(20px);
-}
+} */
 
 .card:hover {
     transform: scale(0.99);

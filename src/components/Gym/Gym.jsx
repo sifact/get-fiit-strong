@@ -6,7 +6,7 @@ import "./Gym.css";
 const Gym = () => {
     const [exercises, setExercises] = useState([]);
     const [singleExe, setSingleExe] = useState([]);
-    console.log(singleExe);
+
     useEffect(() => {
         fetch("fakeData.json")
             .then((res) => res.json())
