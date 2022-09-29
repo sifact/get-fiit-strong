@@ -6,8 +6,26 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: var(--light);
-    height: 2000px;
+    /* background-color: var(--light); */
+    background-image: radial-gradient(
+        circle,
+        #070606,
+        #110e10,
+        #151519,
+        #151b20,
+        #162223
+    );
+
+    /* background-image: linear-gradient(
+        to left top,
+        #170518,
+        #170412,
+        #14040c,
+        #0f0507,
+        #070606
+    ); */
+    /* height: 2000px; */
+    color: #cbd5e1;
 }
 
 code {

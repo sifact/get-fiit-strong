@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-    height: 40vmin;
+    /* height: 40vmin; */
     pointer-events: none;
 }
 
@@ -38,11 +38,13 @@
 }
 
 :root {
-    --primary: #3dcfd3;
-    --secondary: #070606;
+    --tertiary: #3dcfd3;
+
+    --secondary: #232b38;
+    --footer: #2d333f;
     --dark: #161616;
     --pure: #fff;
-    --ternary: #898989;
+    --primary: #35b4bb;
     --light: #eeeeee;
 }
 

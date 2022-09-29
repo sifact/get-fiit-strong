@@ -1,12 +1,13 @@
-nav {
-    background-color: var(--pure);
-}
+/* nav {
+    background-color: var(--dark);
+} */
 
 .header {
     display: flex;
     align-items: center;
 
     margin-left: 100px;
+    /* background: var(--dark); */
 }
 
 .highlight {

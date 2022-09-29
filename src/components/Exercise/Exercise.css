@@ -1,7 +1,8 @@
 .card {
     position: relative;
-    border-bottom: 3px solid var(--primary);
-    background-color: var(--pure);
+    /* border-bottom: 3px solid var(--primary); */
+    /* background-color: #1e293b; */
+    border: 1px solid var(--footer);
     border-radius: 10px;
     width: 270px;
     height: 510px;

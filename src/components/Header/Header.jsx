@@ -6,7 +6,10 @@ const Header = () => {
     return (
         <nav>
             <div className="header">
-                <CgGym style={{ fontSize: "40px", color: "#3dcfd3" }} />
+                <CgGym
+                    className="App-logo"
+                    style={{ fontSize: "40px", color: "#3dcfd3" }}
+                />
                 <h1 style={{ paddingLeft: "1rem" }}>
                     Get <span className="highlight">Fit</span>{" "}
                     <span className="highlight">Strong</span>

@@ -1,9 +1,9 @@
 .profile-wrapper {
     width: 300px;
-    background-color: var(--pure);
+    /* background-color: #1e293b; */
     padding: 1rem;
     border-radius: 10px;
-
+    border: 1px solid var(--footer);
     height: 700px;
 }
 
@@ -28,7 +28,8 @@
 .info {
     display: flex;
     justify-content: space-around;
-    background-color: var(--light);
+    /* background-color: #1e293b; */
+    border: 1px solid var(--footer);
     border-radius: 10px;
     padding: 0.5rem;
     margin-top: 2rem;
