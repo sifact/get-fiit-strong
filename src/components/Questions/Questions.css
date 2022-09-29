@@ -10,12 +10,11 @@ section.questions {
 
 .question {
     position: relative;
-    /* border-bottom: 3px solid var(--primary); */
-    /* background-color: #1e293b; */
+
     border: 1px solid var(--footer);
     border-radius: 10px;
     width: 490px;
-    height: 300px;
+    height: 350px;
     /* transform: translateY(30px) rotate(0deg); */
     transition: all 0.3s ease;
     padding: 2rem;

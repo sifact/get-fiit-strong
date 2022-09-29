@@ -30,15 +30,16 @@ const Exercise = ({ exercise, updateTime }) => {
                 <p style={{ marginBottom: "20px", marginTop: "2px" }}>
                     Time required: {time}
                 </p>
-                <button
-                    onClick={() => {
-                        updateTime(time);
-                    }}
-                    className="btn btn-secondary"
-                >
-                    Add to cart
-                </button>
             </div>
+
+            <button
+                onClick={() => {
+                    updateTime(time);
+                }}
+                className="submit-btn btn"
+            >
+                Add to cart
+            </button>
         </div>
     );
 };

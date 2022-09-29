@@ -69,7 +69,7 @@ const Profile = ({ singleExe }) => {
             </div>
             <Break addBreak={addBreak} />
             <ExerciseDetail singleExe={singleExe} breakTime={breakTime} />
-            <button className="btn btn-primary" onClick={notify}>
+            <button className="submit-btn" onClick={notify}>
                 Activity Completed
             </button>
             <ToastContainer />

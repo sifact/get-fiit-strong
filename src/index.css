@@ -17,16 +17,8 @@ body {
         #162223
     );
 
-    /* background-image: linear-gradient(
-        to left top,
-        #170518,
-        #170412,
-        #14040c,
-        #0f0507,
-        #070606
-    ); */
-    /* height: 2000px; */
     color: #cbd5e1;
+    letter-spacing: 2px;
 }
 
 code {
