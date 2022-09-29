@@ -41,3 +41,12 @@
 .info p {
     margin-top: 4px !important;
 }
+
+@media (max-width: 576px) {
+    .profile-wrapper {
+        width: 250px;
+    }
+    .exercise-wrapper {
+        margin-left: 0;
+    }
+}

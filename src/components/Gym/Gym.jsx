@@ -18,18 +18,20 @@ const Gym = () => {
         setSingleExe(newArray);
     };
     return (
-        <div className="exercise-wrapper">
-            <div className="exercises-container">
-                {exercises.map((exercise) => (
-                    <Exercise
-                        key={exercise.id}
-                        exercise={exercise}
-                        updateTime={updateTime}
-                    />
-                ))}
+        <main className="gym-section">
+            <div className="exercise-wrapper">
+                <div className="exercises-container">
+                    {exercises.map((exercise) => (
+                        <Exercise
+                            key={exercise.id}
+                            exercise={exercise}
+                            updateTime={updateTime}
+                        />
+                    ))}
+                </div>
+                <Profile singleExe={singleExe} />
             </div>
-            <Profile singleExe={singleExe} />
-        </div>
+        </main>
     );
 };
 

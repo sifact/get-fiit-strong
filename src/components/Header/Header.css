@@ -13,3 +13,13 @@
 .highlight {
     color: var(--primary);
 }
+
+@media (max-width: 576px) {
+    nav {
+        text-align: center;
+    }
+    .header {
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
