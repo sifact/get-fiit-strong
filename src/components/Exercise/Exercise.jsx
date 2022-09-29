@@ -38,7 +38,7 @@ const Exercise = ({ exercise, updateTime }) => {
                 }}
                 className="submit-btn btn"
             >
-                Add to cart
+                Add to list
             </button>
         </div>
     );
