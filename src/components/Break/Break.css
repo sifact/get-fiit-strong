@@ -1,11 +1,16 @@
 .break-container span {
     display: grid;
     background: var(--pure);
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
     cursor: pointer;
     /* padding-top: 4px; */
+    transition: all 0.3s ease;
+}
+
+.break-container span:hover {
+    background: var(--primary);
 }
