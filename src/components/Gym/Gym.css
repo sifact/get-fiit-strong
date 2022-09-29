@@ -3,12 +3,14 @@
     margin-left: 100px;
     display: flex;
     justify-content: space-between;
+    /* flex-direction: column; */
 }
 
 .exercises-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 3rem;
 }
 .exercises-container img {
     width: 250px;

@@ -1,6 +1,11 @@
 .break-container span {
-    width: 100px;
+    display: grid;
+    background: var(--pure);
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
-    background-color: var(--light);
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
+    /* padding-top: 4px; */
 }

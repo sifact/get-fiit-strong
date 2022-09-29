@@ -1,10 +1,24 @@
 .card {
+    position: relative;
+    border-bottom: 3px solid var(--primary);
     background-color: var(--pure);
     border-radius: 10px;
     width: 270px;
     height: 510px;
+    /* transform: translateY(30px) rotate(0deg); */
+    transition: all 0.3s ease;
 }
 
+.card-transform {
+    transform: translateY(10px);
+}
+.card-transform-lg {
+    transform: translateY(20px);
+}
+
+.card:hover {
+    transform: scale(0.99);
+}
 .card-content {
     padding: 0 20px 0 20px;
 }

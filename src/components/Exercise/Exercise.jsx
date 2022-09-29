@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Exercise.css";
 
-const Exercise = ({ exercise }) => {
-    console.log(exercise);
-    const { img, name, description, age, time } = exercise;
+const Exercise = ({ exercise, updateTime }) => {
+    // console.log(exercise);
+    const { img, name, description, age, time, id } = exercise;
+    let toggle = false;
+    if (id === 2) {
+        toggle = "card-transform";
+    }
+    if (id === 5) {
+        toggle = "card-transform";
+    }
 
+    if (id === 3) {
+        toggle = "card-transform-lg";
+    }
+    if (id === 6) {
+        toggle = "card-transform-lg";
+    }
     return (
-        <div className="card">
+        <div className={toggle ? `card ${toggle}` : "card"}>
+            {/* <div className="card"> */}
             <img src={img} alt="" />
             <div className="card-content">
                 <h1 style={{ marginTop: "0px", marginBottom: "0px" }}>
@@ -17,7 +31,14 @@ const Exercise = ({ exercise }) => {
                 <p style={{ marginBottom: "20px", marginTop: "2px" }}>
                     Time required: {time}
                 </p>
-                <button className="btn btn-secondary">Add to cart</button>
+                <button
+                    onClick={() => {
+                        updateTime(time);
+                    }}
+                    className="btn btn-secondary"
+                >
+                    Add to cart
+                </button>
             </div>
         </div>
     );

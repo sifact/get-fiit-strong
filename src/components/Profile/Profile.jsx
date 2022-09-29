@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Profile.css";
 import image from "./image/hero.jpg";
 import Break from "../Break/Break";
 import ExerciseDetail from "../ExerciseDetail/ExerciseDetail";
 
-const Profile = () => {
+const Profile = ({ singleExe }) => {
+    const [x, setX] = useState(0);
+
+    const addBreak = (e) => {
+        setX(e.target.outerText);
+    };
     return (
         <div className="profile-wrapper">
             <div className="address">
@@ -41,8 +46,8 @@ const Profile = () => {
                     </span>
                 </div>
             </div>
-            <Break />
-            <ExerciseDetail />
+            <Break addBreak={addBreak} />
+            <ExerciseDetail singleExe={singleExe} x={x} />
             <button className="btn btn-primary">Activity Completed</button>
         </div>
     );
